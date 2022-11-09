@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<article class="page">
+  <h1>{{ page.title }}</h1>
+  {% for p in site.pages %}
+  <ul>
+  {% if p.tags contains page.title  %}
+  <li><a href="{{p.url}}">{{p.title}}</a></li>
+  {% endif %}
+  </ul>  
+  {% endfor %}
+</article>
+
+{{content}}
