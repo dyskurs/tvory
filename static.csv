@@ -1,0 +1,5 @@
+endpoint,folder,filename,,,
+/style.css,static/,style.css,,,
+/tvory.png,static/,tvory.png,,,
+/search-script.js,static/,search-script.js,,,
+/style.css.map,static/,style.css.map,,,

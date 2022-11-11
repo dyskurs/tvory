@@ -1,0 +1,10 @@
+<head>
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{site.name}} – {{ site.punchline }}</title>
+
+    {% include 'meta.html' %}
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ sitename }} — {{ sitepunchline }}" href="{{ site.baseurl }}/feed.xml" />
+
+    <!-- Created with Jekyll Now — http://github.com/barryclark/jekyll-now -->
+  </head>

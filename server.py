@@ -3,23 +3,38 @@ import pandas as pd
 import time
 import markdown as md
 import jinja2 as jj
+import yaml
+from sys import argv
+from pathlib import Path
+import os
 
 
-templateLoader = jj.FileSystemLoader(searchpath="./")
-templateEnv = jj.Environment(loader=templateLoader)
-TEMPLATE_FILE = "template.html"
-template = templateEnv.get_template(TEMPLATE_FILE)
+# Open the file and load the file
+with open('_site.yml') as f:
+    sitedict = yaml.safe_load(f)
 
 
 hostName = "localhost"
 serverPort = 8080
 
-df = pd.read_csv("central.csv")
+df = pd.read_csv("central.csv", keep_default_na = False)
+static = pd.read_csv("static.csv")
 endpoints = set(df["endpoint"])
+static_endpoints = set(static["endpoint"])
 templates = {}
+templateLoader = jj.FileSystemLoader(searchpath="_layouts")
+templateEnv = jj.Environment(loader=templateLoader)
 for temp_name in set(df["template"]):
-    with open("_layouts/{}.html".format(temp_name), "r") as fin:
-        templates[temp_name] = fin.read()
+    templates[temp_name] = templateEnv.get_template(temp_name + ".html")
+
+
+pages = []
+for _, page in df.iterrows():
+    with open(page["folder"] + page["filename"], "r") as fin:
+        page["content"] = fin.read()
+        pages += [dict(page)]
+sitedict["pages"] = pages
+#del pages
 
 class MyServer(BaseHTTPRequestHandler):
     def do_GET(self):
@@ -27,27 +42,86 @@ class MyServer(BaseHTTPRequestHandler):
             self.path = self.path[:-10]
         if self.path in endpoints:
             self.send_response(200)
-            self.send_header("Content-type", "text/html")
+            if self.path.endswith(".json"):
+                self.send_header("Content-type", "application/json")
+            else:
+                self.send_header("Content-type", "text/html")
             self.end_headers()
-            info = df[df["endpoint"]==self.path].iloc[0]
-            with open(info["folder"] + "/" + info["filename"], "r") as fin:
+            
+            #with open('_site.yml') as f:
+            #    sitedict = yaml.safe_load(f)
+            
+            page = df[df["endpoint"]==self.path].iloc[0]
+            
+            with open(page["folder"] + page["filename"], "r") as fin:
                 content = fin.read()
-            self.wfile.write(bytes(md.markdown(templates[info["template"]].format(content = content)), "utf-8"))
+            
+            template = templateEnv.get_template(page["template"] + ".html")
+            page["content"] = md.markdown(content)
+            self.wfile.write(bytes(template.render({"page": page, "site": sitedict}), "utf-8"))
+            
+        elif self.path in static_endpoints:
+            self.send_response(200)
+            if self.path.endswith('.css'):
+                self.send_header('Content-type', 'text/css')
+            elif self.path.endswith('.json'):
+                self.send_header('Content-type', 'application/javascript')
+            elif self.path.endswith('.js'):
+                self.send_header('Content-type', 'application/javascript')
+            elif self.path.endswith('.ico'):
+                self.send_header('Content-type', 'image/x-icon')
+            elif self.path.endswith('.png'):
+                self.send_header('Content-type', 'image/png')
+            else:
+                self.send_header('Content-type', 'text/html')
+            self.end_headers()
+            info = static[static["endpoint"]==self.path].iloc[0]
+            with open(info["folder"] + info["filename"], "rb") as fin:
+                self.wfile.write(fin.read())
             
         else:
             self.send_response(404)
             self.send_header("Content-type", "text/html")
             self.end_headers()
-            self.wfile.write(bytes(f"<html><head><title>https://pythonbasics.org</title></head><p>Request: {self.path}, response : 404 not found.</p></body></html>", "utf-8"))
+            self.wfile.write(bytes(f'<html><head><meta http-equiv="refresh" content="0; URL=/404"></head><body></body></html>', "utf-8"))
 
-if __name__ == "__main__":        
-    webServer = HTTPServer((hostName, serverPort), MyServer)
-    print(f"Server started http://{hostName}:{serverPort}")
+def treat_central(page):
+    if page["endpoint"].endswith("/"):
+        page["endpoint"] += "index.html"
+    with open(page["folder"] + page["filename"], "r") as fin:
+        content = fin.read()
+    template = templateEnv.get_template(page["template"] + ".html")
+    page["content"] = md.markdown(content)
+    filename = "_site" + page["endpoint"]
+    Path(os.path.dirname(filename)).mkdir(parents=True, exist_ok=True)
+    with open(filename, "w+") as fout:
+        fout.write(template.render({"page": page, "site": sitedict}))
 
-    try:
-        webServer.serve_forever()
-    except KeyboardInterrupt:
-        pass
 
-    webServer.server_close()
-    print("Server stopped.")
+def treat_static(info):
+    with open(info["folder"] + info["filename"], "rb") as fin:
+        filename = "_site" + info["endpoint"]
+        Path(os.path.dirname(filename)).mkdir(parents=True, exist_ok=True)
+        with open(filename, "wb+") as fout:
+            fout.write(fin.read())
+
+
+if __name__ == "__main__":
+    if len(argv) > 1 and argv[1]=="build":
+        df.apply(treat_central, axis = 1)
+        static.apply(treat_static, axis = 1)
+    else:
+        webServer = HTTPServer((hostName, serverPort), MyServer)
+        print(f"Server started http://{hostName}:{serverPort}")
+
+        try:
+            webServer.serve_forever()
+        except KeyboardInterrupt:
+            pass
+
+        webServer.server_close()
+        print("Server stopped.")
+
+
+
+
