@@ -10,6 +10,10 @@
       {% for aug in site.pages| selectattr("lang", "equalto", "be") | rejectattr("author", "equalto", "") |groupby('author') %}
       <p><strong>{{aug.grouper}}</strong>: {% for elem in aug.list %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
       {% endfor %}
+
+      {% for aug in site.pages| selectattr("lang", "equalto", "en") | rejectattr("author", "equalto", "") |groupby('author') %}
+      <p><strong>{{aug.grouper}}</strong>: {% for elem in aug.list %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
+      {% endfor %}
       
       
       {{page.content}}
