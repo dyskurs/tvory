@@ -1,4 +1,4 @@
-endpoint,template,folder,filename,prev,next,title,author,lang
+endpoint,template,dir,filename,prev,next,title,author,lang
 /,index,,index.md,,,Галоўная,,be
 /002/,poem,Мелодыя натхнення/,002.md,/,/003/,А хто там ідзе?,ЯНКА КУПАЛА,be
 /003/,poem,Мелодыя натхнення/,003.md,/002/,/004/,But who marcher there?,ЯНКА КУПАЛА,en
