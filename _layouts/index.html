@@ -7,12 +7,14 @@
     <div id="main" role="main" class="container">
       {% include 'nav.html' %}
       <h1>{{page.title}}</h1>
+      <h2>Вершы па-беларуску</h2>
       {% for aug in site.pages| selectattr("lang", "equalto", "be") | rejectattr("author", "equalto", "") |groupby('author') %}
-      <p><strong>{{aug.grouper}}</strong>: {% for elem in aug.list %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
+      <p><strong>{{ site.data["authornames"]["be"][aug.grouper]}}</strong>: {% for elem in aug.list %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
       {% endfor %}
 
+      <h2>Poems in English</h2>
       {% for aug in site.pages| selectattr("lang", "equalto", "en") | rejectattr("author", "equalto", "") |groupby('author') %}
-      <p><strong>{{aug.grouper}}</strong>: {% for elem in aug.list %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
+      <p><strong>{{site.data["authornames"]["en"][aug.grouper]}}</strong>: {% for elem in aug.list %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
       {% endfor %}
       
       
