@@ -9,12 +9,12 @@
       <h1>{{page.title}}</h1>
       <h2>Вершы па-беларуску</h2>
       {% for auth_id in site.data.order["Мелодыя натхнення"] %}
-      <p><strong>{{ site.data["authornames"]["be"][auth_id]}}</strong>: {% for elem in site.pages| selectattr("lang", "equalto", "be") | rejectattr("author", "equalto", "") | selectattr("dir", "equalto", "Мелодыя натхнення") | selectattr("author", "equalto", auth_id %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
+      <p><strong>{{ site.data["authornames"]["be"][auth_id]}}</strong>: {% for elem in site.pages| selectattr("lang", "equalto", "be") | rejectattr("author", "equalto", "") | selectattr("dir", "equalto", "Мелодыя натхнення") | selectattr("author", "equalto", auth_id) %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
       {% endfor %}
 
       <h2>Poems in English</h2>
       {% for auth_id in site.data.order["Мелодыя натхнення"] %}
-      <p><strong>{{ site.data["authornames"]["en"][auth_id]}}</strong>: {% for elem in site.pages| selectattr("lang", "equalto", "en") | rejectattr("author", "equalto", "") | selectattr("dir", "equalto", "Мелодыя натхнення") | selectattr("author", "equalto", auth_id %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
+      <p><strong>{{ site.data["authornames"]["en"][auth_id]}}</strong>: {% for elem in site.pages| selectattr("lang", "equalto", "en") | rejectattr("author", "equalto", "") | selectattr("dir", "equalto", "Мелодыя натхнення") | selectattr("author", "equalto", auth_id) %}<a href="{{elem.endpoint}}" title="{{elem.title}}">{{elem.title}}</a>{% if not loop.last%}, {% endif%}{% endfor %}</p>
       {% endfor %}
       
       
