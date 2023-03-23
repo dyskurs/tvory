@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html>
-  {% include 'head.html' %}
+  {% include head.html %}
   <body>
-{% include 'header.html' %}
+{% include header.html %}
 
     <div id="main" role="main" class="container">
-      {% include 'nav.html' %}
+      {% include nav.html %}
       <h1>{{page.title}}</h1>
       <em>{{page.author}}</em>
-      {{page.content}}
-      {% include 'nav.html' %}
+      {{page.content | markdownify}}
+      {% include nav.html %}
     </div>
 
-    {% include 'footer.html' %}
+    {% include footer.html %}
   </body>
 </html>

@@ -1,5 +1,4 @@
 endpoint,template,dir,filename,prev,next,title,author,lang
-/,index,,index.md,,,Галоўная,,be
 /002/,poem,Мелодыя натхнення/,002.md,/,/003/,А хто там ідзе?,ЯНКА КУПАЛА,be
 /003/,poem,Мелодыя натхнення/,003.md,/002/,/004/,But who marcher there?,ЯНКА КУПАЛА,en
 /004/,poem,Мелодыя натхнення/,004.md,/003/,/005/,Я не для вас…,ЯНКА КУПАЛА,be
@@ -200,7 +199,3 @@ endpoint,template,dir,filename,prev,next,title,author,lang
 /199/,poem,Мелодыя натхнення/,194.md,/198/,/200/,«Tomorrow» — is a palace and a cell ,ТАЦЦЯНА СІВЕЦ,en
 /200/,poem,Мелодыя натхнення/,195.md,/199/,/201/,Гэта не для мяне! Я не ўмею хадзіць па вадзе.,ТАЦЦЯНА СІВЕЦ,be
 /201/,poem,Мелодыя натхнення/,196.md,/200/,,It's off my beat! I can't go water face,ТАЦЦЯНА СІВЕЦ,en
-/search/,poem,,search.md,,,Шукаць,,be
-/search.json,search-json,static/,search.json,,,,,
-/404,poem,,404.md,,,404,,
-/about/,poem,,about.md,,,Аб сайце,,be

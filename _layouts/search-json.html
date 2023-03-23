@@ -3,12 +3,12 @@
     {
 
       "title"    : "{{ p.title | escape }}",
-      "url"      : "{{ site.baseurl }}{{ p.endpoint }}",
+      "url"      : "{{ site.baseurl }}{{ p.url }}",
       "category" : "{{ p.category }}",
       "tags"     : "{{ ', '.join(p.tags) }}",
       "date"     : "{{ p.date }}",
-      "content"  : "{{ p.content | striptags  | escape }}"
+      "content"  : "{{ p.content | strip_html | newline_to_br | strip_newlines | replace: '<br />', ' ' | replace: '"', ' ' }}"
 
-    } {% if not loop.last %},{% endif %}
+    } {% if forloop.last == false %},{% endif %}
   {% endfor %}
 ]
