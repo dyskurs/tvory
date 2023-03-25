@@ -10,4 +10,4 @@ lang: be
 
 Дзейнасць рэсурса рэгламентуецца статутам, [беларускім заканадаўствам](https://pravo.by), іншымі актамі.
 
-<figure style="text-align: center;"><img src="/tvory.png" alt="Творы: лагатып"></figure>
+<figure style="text-align: center;"><img src="/static/tvory.png" alt="Творы: лагатып"></figure>

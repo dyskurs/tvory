@@ -151,13 +151,13 @@
               resultsContainer: null,
               json: [],
               success: Function.prototype,
-              searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>',
+              searchResultTemplate: '<li style="line-height:1.3rem"><strong>{author}</strong>: <a href="{url}" title="{title}">{title}</a> <span style="font-size:0.9rem;color:darkgray;">{contentshort}</span></li>',
               templateMiddleware: Function.prototype,
               sortMiddleware: function() {
                   return 0
               },
               noResultsText: "No results found",
-              limit: 10,
+              limit: 20,
               fuzzy: !1,
               debounceTime: null,
               exclude: []

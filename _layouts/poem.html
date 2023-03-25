@@ -5,11 +5,11 @@
 {% include header.html %}
 
     <div id="main" role="main" class="container">
-      {% include nav.html %}
-      <h1>{{page.title}}</h1>
-      <em>{{page.author}}</em>
+      <span><span class="navbuttons" style="float:right">{% include nav.html %}</span><h1>{{page.title}}</h1></span>
+      <em>{{site.data.authornames[page.lang][page.author]}}</em>
+      {% if page.translator %}<br><em>{{page.translator}}</em>{% endif %}
       {{page.content | markdownify}}
-      {% include nav.html %}
+      <span class="navbuttons">{% include nav.html %}</span>
     </div>
 
     {% include footer.html %}

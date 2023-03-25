@@ -3,18 +3,19 @@
       <header class="masthead clearfix">
         <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-        <div class="site-info">
-          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-          <p class="site-description">{{ site.punchline }}</p>
+        <div class="site-info">{% assign home = site.pages | where: "id", "index" | where: "lang", page.lang | first %}
+          <h1 class="site-name"><a href="{{ site.baseurl }}{{home.url}}">{{ site.name[page.lang] }}</a></h1>
+          <p class="site-description">{{ site.punchline[page.lang] }}</p>
         </div>
         
         <div class="site-info">
           <p class="site-description" style="color:red">Увага, на сайце вядзецца рэмонт.</p>
         </div>
-
+        {% assign search = site.pages | where: "id", "search" | where: "lang", page.lang | first %}
+        {% assign about = site.pages | where: "id", "about" | where: "lang", page.lang | first %}
         <nav>
-          <a href="{{ site.baseurl }}/search/">Шукаць</a>
-          <a href="{{ site.baseurl }}/about/">Аб сайце</a>
+          <a href="{{ site.baseurl }}{{search.url}}">{{site.data.i18n[page.lang]["search"]}}</a>
+          <a href="{{ site.baseurl }}{{about.url}}">{{site.data.i18n[page.lang]["about"]}}</a>
         </nav>
       </header>
     </div>
