@@ -14,3 +14,11 @@ be:
   search: Шукаць
   about: Аб сайце
   enter_query: Увядзіце запыт...
+ru:
+  to_this_version: по-русски
+  collection: Сборник
+  opq: «
+  clq: »
+  search: Искать
+  about: О сайте
+  enter_query: Введите запрос...

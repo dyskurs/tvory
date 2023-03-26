@@ -1,9 +1,9 @@
 <div class="wrapper-masthead">
     <div class="container">
-      <header class="masthead clearfix">
-        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+      <header class="masthead clearfix">{% assign home = site.pages | where: "id", "index" | where: "lang", page.lang | first %}
+        <a href="{{ site.baseurl }}{{home.url}}" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-        <div class="site-info">{% assign home = site.pages | where: "id", "index" | where: "lang", page.lang | first %}
+        <div class="site-info">
           <h1 class="site-name"><a href="{{ site.baseurl }}{{home.url}}">{{ site.name[page.lang] }}</a></h1>
           <p class="site-description">{{ site.punchline[page.lang] }}</p>
         </div>

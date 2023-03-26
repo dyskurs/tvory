@@ -9,7 +9,7 @@
            
       {{page.content | markdownify }}
       {% assign ids = site.pages | where_exp: "item", "item.id" | map: "id" %}
-      {% for id in ids %}{% assign idpages = site.pages | where: "id", id  %}{% assign idpagesn = idpages | size %}{% if idpagesn > 2 %}<span style="color:red">Паўтараецца id:</span> {{id}}: {{idpagesn}}, {{idpages | map: "url" | join: " + "}} <br>{% endif %}{% endfor %}
+      {% for id in ids %}{% assign idpages = site.pages | where: "layout", "poem" | where: "id", id  %}{% assign idpagesn = idpages | size %}{% if idpagesn > 2 %}<span style="color:red">Паўтараецца id:</span> {{id}}: {{idpagesn}}, {{idpages | map: "url" | join: " + "}} <br>{% endif %}{% endfor %}
 
 
       {% for t in page.collections %}
@@ -18,7 +18,6 @@
 
       <p></p><span class="navbuttons">{% include nav.html %}</span>
     </div>
-
     {% include footer.html %}
   </body>
 </html>
