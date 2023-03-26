@@ -7,19 +7,16 @@
     <div id="main" role="main" class="container">
       <span><span class="navbuttons" style="float:right">{% include nav.html %}</span><h1>{{page.title}}</h1></span>
            
-      {{page.content}}
+      {{page.content | markdownify }}
+      {% assign ids = site.pages | where_exp: "item", "item.id" | map: "id" %}
+      {% for id in ids %}{% assign idpages = site.pages | where: "id", id  %}{% assign idpagesn = idpages | size %}{% if idpagesn > 2 %}<span style="color:red">Паўтараецца id:</span> {{id}}: {{idpagesn}}, {{idpages | map: "url" | join: " + "}} <br>{% endif %}{% endfor %}
 
 
-      {% assign tags =  site.pages | where: "lang", page.lang | map: 'tags' | uniq %}
-      {% for t in tags %}{% if t %}<h2>{{site.data.i18n[page.lang]["collection"]}} {{site.data.i18n[page.lang]["opq"]}}{{site.data.collections[t][page.lang]}}{{site.data.i18n[page.lang]["clq"]}}</h2>
-        <p>
-        {% for auth_id in site.data.order[t] %}
-        <strong>{{ site.data["authornames"][page.lang][auth_id]}}</strong>: {% assign list = site.pages| where: "lang", page.lang | where: "author", auth_id %}{% for elem in list %}<a href="{{elem.url}}" title="{{elem.title}}">{{elem.title}}</a>{% if forloop.last == false %}, {% endif%}{% endfor %}
-        {% endfor %}</p>
-      {% endif %}
+      {% for t in page.collections %}
+      {% include collection.html t = t lang = page.lang %}
       {% endfor %}
 
-      <span class="navbuttons">{% include nav.html %}</span>
+      <p></p><span class="navbuttons">{% include nav.html %}</span>
     </div>
 
     {% include footer.html %}

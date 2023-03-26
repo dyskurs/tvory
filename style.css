@@ -753,3 +753,17 @@ code {
   color: unset;
   box-shadow: lightsteelblue 0.5rem 0.5rem 2rem 0.5rem;
 }
+
+.collectiondiv {
+  padding:2rem;
+  padding-top:0.2rem;
+  background-color: #ffeb3b0f;
+  box-shadow: lightsteelblue 0.5rem 0.5rem 2rem 0.5rem;
+  height: 20rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.collectiondiv div {
+  -webkit-mask-image: linear-gradient(black 9rem, transparent 18rem)
+}

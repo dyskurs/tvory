@@ -1,5 +1,6 @@
 ---
-layout: poem
+layout: general
+id: about
 title: Аб сайце
 lang: be
 ---
