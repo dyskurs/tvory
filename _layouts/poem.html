@@ -7,6 +7,7 @@
     <div id="main" role="main" class="container">
       <span><span class="navbuttons" style="float:right">{% include nav.html %}</span><h1>{{page.title}}</h1></span>
       <em>{{site.data.authornames[page.lang][page.author]}}</em>
+      <div style="float: right;display: block;"><a href="{{site.data.vedy-be-links[page.author]}}">{{site.data.authornames[page.lang][page.author]}}</a> на Ведах беларускіх</div>
       {% if page.translator %}<br><em>{{page.translator}}</em>{% endif %}
       {{page.content | markdownify}}
       <span class="navbuttons">{% include nav.html %}</span>
