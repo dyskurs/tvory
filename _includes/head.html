@@ -1,12 +1,14 @@
 <head>
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{site.name[page.lang]}} – {{ site.punchline[page.lang] }}</title>
+    <title>{% if pagetitle %}{{ pagetitle }}{% if page.layout == "poem" %} · {{site.data.authornames[page.lang][page.author]}}{% endif %} – {% endif %}{{site.name[page.lang]}}{% if page.layout == "index" %} – {{ site.punchline[page.lang] }}{% endif %}</title>
 
     {% include meta.html %}
 
     <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ sitename }} — {{ site.punchline[page.lang] }}" href="{{ site.baseurl }}/feed.xml" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name[page.lang] }} — {{ site.punchline[page.lang] }}" href="{{ site.baseurl }}/feed.xml" />
     <link rel="icon" type="image/png" href="/static/tvory-icon.png">
 
 
     <!-- Created with Jekyll Now — http://github.com/barryclark/jekyll-now -->
   </head>
+
+  

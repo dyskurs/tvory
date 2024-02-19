@@ -1,23 +1,14 @@
-<!DOCTYPE html>
-<html>
-  {% include head.html %}
-  <body>
-{% include header.html %}
+---
+layout: general
+---
 
-    <div id="main" role="main" class="container">
-      <span><span class="navbuttons" style="float:right">{% include nav.html %}</span><h1>{{page.title}}</h1></span>
-           
-      {{page.content | markdownify }}
-      {% assign ids = site.pages | where_exp: "item", "item.id" | map: "id" %}
-      {% for id in ids %}{% assign idpages = site.pages | where: "layout", "poem" | where: "id", id  %}{% assign idpagesn = idpages | size %}{% if idpagesn > 2 %}<span style="color:red">Паўтараецца id:</span> {{id}}: {{idpagesn}}, {{idpages | map: "url" | join: " + "}} <br>{% endif %}{% endfor %}
+{{page.content | markdownify }}
+{% assign ids = site.pages | where_exp: "item", "item.id" | map: "id" %}
+{% for id in ids %}{% assign idpages = site.pages | where: "layout", "poem" | where: "id", id  %}{% assign idpagesn = idpages | size %}{% if idpagesn > 2 %}<span style="color:red">Паўтараецца id:</span> {{id}}: {{idpagesn}}, {{idpages | map: "url" | join: " + "}} <br>{% endif %}{% endfor %}
 
 
-      {% for t in page.collections %}
-      {% include collection.html t = t lang = page.lang %}
-      {% endfor %}
+{% for t in page.collections %}
+{% include collection_indexpage.html t = t lang = page.lang %}
+{% endfor %}
 
-      <p></p><span class="navbuttons">{% include nav.html %}</span>
-    </div>
-    {% include footer.html %}
-  </body>
-</html>
+<p></p><span class="navbuttons">{% include nav.html %}</span>

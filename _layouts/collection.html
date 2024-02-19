@@ -1,0 +1,9 @@
+---
+layout: general
+---
+
+{{page.content | markdownify }}
+
+{% include list_works.html t = page.id lang = page.lang authorendstring = "</p><p>" %}
+
+<p></p><span class="navbuttons">{% include nav.html %}</span>

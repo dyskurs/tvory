@@ -1,0 +1,9 @@
+{% assign gencount = site.pages| where: "lang", include.lang | where_exp:"item", "item.tags contains include.t" | size %}{% if gencount > 0 %}
+{% assign indexpage = site.pages | where: "lang", include.lang | where: "id", include.t | where: "layout", "collection" | first %}
+<div class="collectiondiv">
+<div>{% if include.t %}
+<h2>{% if indexpage.url %}<a href="{{indexpage.url}}">{% endif %}{% include collection_langname.html t = include.t lang = include.lang %}{% if indexpage.url %}</a>{% endif %}</h2>
+<p>{% include list_works.html t = include.t lang = include.lang %}</p>
+{% endif %}
+</div>
+</div>{% endif %}

@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html>
+  {% if page.layout == "collection" %}{% capture pagetitle %}{% include collection_langname.html t = page.id lang = page.lang %}{% endcapture %}{% else %}{% assign pagetitle = page.title %}{% endif %}
   {% include head.html %}
   <body>
 {% include header.html %}
 
     <div id="main" role="main" class="container">
-      <span><span class="navbuttons" style="float:right">{% include nav.html %}</span><h1>{{page.title}}</h1></span>
+      <span><span class="navbuttons" style="float:right">{% include nav.html %}</span><h1>{{pagetitle}}</h1></span>
            
-      {{page.content | markdownify }}
+      {{content}}
 
     </div>
 

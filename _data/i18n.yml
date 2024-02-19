@@ -6,6 +6,9 @@ en:
   search: Search
   about: About
   enter_query: Enter query...
+  next: Forth
+  prev: Back
+  thispoemincollections: "Collections:"
 be:
   to_this_version: па-беларуску
   collection: Зборнік
@@ -14,6 +17,9 @@ be:
   search: Шукаць
   about: Аб сайце
   enter_query: Увядзіце запыт...
+  next: Далей
+  prev: Назад
+  thispoemincollections: "Зборнікі:"
 ru:
   to_this_version: по-русски
   collection: Сборник
@@ -22,3 +28,6 @@ ru:
   search: Искать
   about: О сайте
   enter_query: Введите запрос...
+  next: Вперёд
+  prev: Назад
+  thispoemincollections: "Сборники:"

@@ -1,4 +1,8 @@
-{% if page.prev %}<a href="{{page.prev}}">« Назад</a>{% endif %}
-{% if page.next %}<a href="{{page.next}}">Далей »</a>{% endif %}
+{% assign previd = page.id | prev %}
+{% assign nextid = page.id | next %}
+{% assign prevpage = site.pages | where: "id", previd | where: "lang", page.lang | first %}
+{% assign nextpage = site.pages | where: "id", nextid | where: "lang", page.lang | first %}
+{% if prevpage %}<a href="{{prevpage.url}}">« {{site.data.i18n[page.lang]["prev"]}}</a>{% endif %}
+{% if nextpage %}<a href="{{nextpage.url}}">{{site.data.i18n[page.lang]["next"]}} »</a>{% endif %}
 {% assign brothers = site.pages | where: "id", page.id | where_exp:"item", "item.lang != page.lang" %}
 {% for p in brothers %}<a href="{{p.url}}">{{site.data.i18n[p.lang]["to_this_version"]}}</a>{% endfor %}
