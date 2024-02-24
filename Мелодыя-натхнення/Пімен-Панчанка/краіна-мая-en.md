@@ -30,17 +30,7 @@ H°w in blazing summer, day after day, We wandered across fields of stubble, e w
 
 **«****'****іямнмнншынтшнішіш****п****к^ннміпіііііп**
 
-I не было нічога ярчэй За сонца на родным небе, I не было нічога смачней Матчынага хлеба.
 
-Вада з прыдарожнага ручая Была саладзей за мёд нам...
-
-Краіна мая, маці мая, Лёствой цяжкі і гаротны!
-
-Топча, катуе тваю зямлю Вылюдак ашалелы.
-
-Я кроў да апошняе кроплі пралью, Каб толькі табе палягчэла.
-
-Hi славы, ні скарбаў я не хачу, Мне б толькі прыйсці непрыкметна, Зямлю сваю пад нагамі адчуць, Надыхацца родным паветрам.
 
 _Translated by Vera Rich._
 
@@ -57,3 +47,17 @@ My blood to the uttermost drop I would spend, If  only thus I could ease thee.
 ![](2022-%D0%9C%D1%96%D0%BD%D1%81%D0%BA-%D0%BB%D1%83%D1%87%D0%BD%D0%B0%D1%81%D1%86%D1%8C-%D0%BC%D1%96%D0%BA%D0%BE%D0%BB%D0%B0-%D0%BC%D1%8F%D1%82%D0%BB%D1%96%D1%86%D0%BA%D1%96_html_ea7f78c09b94ebb3.jpg)
 
 і1птшШНШІі№"'Цк0ІІІІПІп
+
+No need to recall drievous trouble and mischief.
+
+May  radiant peace of the golden-haired wheatsheaf Illumine the future.
+
+By the brightness of happiness may we see better May this flame, like a flag, on the square ever flutter Its sparks star  the heavens. '
+
+Thet heart upon which such a spark once should settle
+
+Will burn like camp-fire, will beat for the battle,
+
+Will never grow colder.
+
+_Tr__a__nslat__e__d by Walter May__._

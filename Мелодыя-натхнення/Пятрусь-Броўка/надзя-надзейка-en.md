@@ -32,45 +32,6 @@ Blue her eyes, seeming Like cornflowers gleaming...»
 
 Gusty the winds, and wild the storms blowing... Sad through the forest a young lad is going. Nadzia-Nadziejka!» the flute's sobs are breaking. With yellowed leaves come tears bitter and paining, from the white birch-tree falling and raining: *Toung lad, your eyes heavy with sorrow, Hew me down, white, in night's blackness, for terror *  *s to endure this young maiden's horror.
 
-Помню я смех ваш,
-
-Гулі-гулянкі,
-
-Песні-вяснянкі
-
-Аж да світанку.
-
-Хлопец жалобу носіць па полі. Ён у бярозы лытаецца з болем:
-
-* Што ж не осавала ты любую голлем?
-    
-* Надзя! Надзейкаі. — плача жалейка..
-    
-
-3 лісцем лажоўклым горкія слёзы Падаюць, сыплюцца з белай бярозы:
-
-* Як наляцела цемра-навала, Змеі налал L  джалілі джалам.
-    
-
-Дымам дыхнулі,  — чорнай я стала,
-
-3 крыкам і тлумам,
-
-Гвал  гам і глумам
-
-Красу загубілі,
-
-Дзяўчыну забілі.
-
-Ходзіць ла лесе, лушчак дубровах Хлопец разгневаны, х лолец суррвы:
-
-* Скора вярнуся
-    
-
-Разам _з_  еябрамі, Грукнем маланкамі Ды перунамі, вылечэм змеяў жалезам калёным, Неба ачысцім, хмары разгонін Дзеўчыну ўславім, _Голле_ расправім, травы абсыплем чыстай сляэою, Чыстай слязою, Быццам расою.
-
-— НадзяІ Надзеймк —  кліча жалейма.
-
 I recall  you  two laughing, Dancing and singing Ballads of springtime UH dawn-light glimmered...»
 
 The lad carries his grief the broad ploughland over, Seeks in his pain from the birch to discover: «Why couldn't your branches hide my beloved?» «Nadzia-Nadziejka!» The flute's sobs are breaking.
@@ -99,40 +60,21 @@ _Translated by Vera Rich__._
 
   
 
-Слова вастрылі вятры, каб узлятала высока, Каб мы адзін аднаго чулі далёка-далёка...
+
+
+
+
+
+
+
 
   
-
-Хто цябе змалку пазнаў, той ад хаціны не зверне. Кожнае слова тваё — гэта, што ў коласе зерне.
-
-  
-
-Ведаю, прыйдзе той час — пад курганом заначую. Усё ж праз карэнні дубоў родную песню пачую.
-
-  
-
-Словы ад розных ішлі. Ад сумных яны і вясёлых. 3 розных жа кветак нясуць, мёд сабіраючы, пчолы.
-
-  
-
-Ты навучыла любіць жытні кавалачак хлеба, Зоры дарыла ты мне, ўноч адкрываючы неба.
-
-  
-
-Жыць без цябе абыякава, сумна і цесна. О, як мяне ты ўзняла, родная, любая песня!
-
   
 
 **b^jOBw****a****ka****to****u****rs** **ta****ngofilth**
 
   
 
-Песня стагоддзі жыве. Моцы яна набірала.
 
-Слова, ўскрыляючы нас, быццам маланка шугала.
-
-  
-
-Песня, праводзіш ты нас ад нараджэння да смерці. Родная песня мая! Ты мне мілейшая ў свеце.
 
   

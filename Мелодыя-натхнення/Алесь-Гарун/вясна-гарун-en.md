@@ -14,33 +14,6 @@ lang: en
 
 Ah, the spring, the spring! When it came hastening, Brightness it did bring, Warmth so comforting. In the dikes it poured Snowy water free, In the meads it flowered, Unplaited orchard trees. Woods awoke anew To the springtime sound, And a grief profound Pierced my soul right through.
 
-Першыя гусі ужо праляцелі, Палі на рэчцы, узгорак абселі; Гвагалі доўга, нараду зыбраўшы, Потым згадзіліся, дось пакрычаўшы; Ўзляцелі высока над сосны, над елі I недзе прапалі ў нябескім касцеле...
-
-Ах, каб крылле, крылле мне I той лёт гусачы, Я прапаў-бы ў гарыне Хто-б мяне і бачыў!
-
-Раз-у-пораз раз-у-раз, У неба-б біў крыламі... Гусі, _г__у__сі__,_ _я_ да вас, Я ляту за вамі!
-
-Дзе былі вы? Што было там?
-
-Дзе жылі вы? Над балотам? Мо ля рэчкі? Мо ля хаткі? Ля сялібы майго таткі?
-
-Mae маткі, майго браткі, Вы ня бачылі часамі?
-
-А сястрыцы? А дзявіцы,
-
-Mae любы, Вы ня бачылі часамі? А у шлюбы
-
-Ня збіраецца сястрыца?
-
-He? А люба, чараўніца?..
-
-Ці там мгліста,
-
-Ці там ясна?
-
-Красна? Міла?
-
-Гусі? Шчасна?...
 
 Now the first geese have already flown over, They fell on the river, the hill they did cover;
 

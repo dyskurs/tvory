@@ -28,19 +28,6 @@ They had to leave us out of sight, Amid the heat of village toil, And only swadd
 
 But swaddling-bands we thrust aside, We found our feet soon as we could, And barefoot in our boyish pride, Upon the stubble stiff we stood.
 
-Мы свет _с__т__рачалі з_ хваляваннем, Усё здзіўляла нас _кругом:_
-
-_I_ _тое першае спатканне_
-
-3 сабакам, _пеўнем і_ катом,
-
-_I_ _чырвань_ яркая зарніцы,
-
-_I_ чорнай _ночы_ цішыня, I бору _шум, і_ звон _крыніцы,_ _I_ _першы_ роскат _перуна._
-
-_А дні праходзілі за дн__я__мі__,_ Мацней _с__т__аялі на нагах_ _— I_ мы, памыўшыся _дажджамі__._
-
-_I_ мы, _абцёршыся вятрамі__,_ _Выходзілі ў далёкі_ шлях.
 
 ![](2022-%D0%9C%D1%96%D0%BD%D1%81%D0%BA-%D0%BB%D1%83%D1%87%D0%BD%D0%B0%D1%81%D1%86%D1%8C-%D0%BC%D1%96%D0%BA%D0%BE%D0%BB%D0%B0-%D0%BC%D1%8F%D1%82%D0%BB%D1%96%D1%86%D0%BA%D1%96_html_ef71bd0653e28066.jpg)  
 style="position: absolute; top: 0.01in; left: 1.2in" ![](2022-%D0%9C%D1%96%D0%BD%D1%81%D0%BA-%D0%BB%D1%83%D1%87%D0%BD%D0%B0%D1%81%D1%86%D1%8C-%D0%BC%D1%96%D0%BA%D0%BE%D0%BB%D0%B0-%D0%BC%D1%8F%D1%82%D0%BB%D1%96%D1%86%D0%BA%D1%96_html_528c0c40ef3659c7.jpg)  

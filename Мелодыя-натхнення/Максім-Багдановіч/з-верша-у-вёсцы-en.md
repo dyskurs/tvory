@@ -26,7 +26,10 @@ At that moment she, childlike in form, and thin, Seemed sudden to appear filled 
 
 ■  кШІ ! 56
 
-  
-I, помню, я на міг пахарашэў душою.
 
-А можа не краса была ў дзяўчынцы той, — Дзяўчынцы ўпэцканай і хілай, і худой, — А штось вышэйшае, што Рафаэль вялікі Стараўся выявіць праз маці Божай лікі.
+
+And, I recall, my soul grew finer for an instant, But maybe in the girl it was not loveliness — In that thin, grubby, puny little girl expressed — But something higher which great Raphael endeavoured To show through the features of Our Lord's own Mother.
+
+Translated by Vera Rich.
+
+  

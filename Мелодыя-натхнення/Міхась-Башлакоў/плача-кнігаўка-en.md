@@ -22,38 +22,6 @@ This land, this land I like!
 
 I feet very confused and tired When looking at it, but why?
 
-А над ёю чарнее імгла,
-
-А над ёю кружыць каршук...
-
-He згарэла, напэўна, датла — Выглядае маю душу...
-
-Што жты, кнігаўка, горка крычыш? Што ж расы ты ў лугах не п'еш? Цёмна-цёмна вакол, бы ўначы, I гнязда больш, гнязда не саўеш...
-
-Дык няўжо паміраць нам з табой, О зямля мая, родны мой кут? А каршук вісіць нада мной... Я прыкутланцугамі пакут...
-
-I ля ног маіх плешчацца Сож, Сіні-сіні быў, пачарнеў...
-
-А сусед мой навострыць нож
-
-I з усмешкай яго ўваткне.
-
-I нікога, нікога няма,
-
-Хто адвёў бы гэту руку...
-
-Толькі там дзесь блукае зіма, Замятае луг і раку,..
-
-А пакуль, а пакуль горка плач, Плач жа, кнігаўка...
-
-Што мне хацець?
-
-I няма мне ні шчасця, ні ўдач
-
-I не будзе ніколі нідзе...
-
-Плача кнігаўка ў росных лугах...
-
 Over it there is a dark haze, And over it a black kite flies... My soul may haven't been burnt — The kite's looking for it with eyes.
 
 Oh, lapwing, why can't you stop crying? Why don't you drink dew in morn leas? It's dark like at night ail around...
@@ -83,3 +51,19 @@ Neither happiness nor luck are mine, And I can't change my heavy lot...
 A lapwing's crying in dewy leas...
 
 _Translated by Tatyana Akushevich._
+
+
+
+Following the twilight In the  dark heavens
+
+High...
+
+Over the whitish fog It  was crying anxiously. And  at night  its crying Became weak and melted. Was it wounded? Maybe The birg was calling to me. I watched the crane flying, Butlcouldnot  help  it...
+
+![](2022-%D0%9C%D1%96%D0%BD%D1%81%D0%BA-%D0%BB%D1%83%D1%87%D0%BD%D0%B0%D1%81%D1%86%D1%8C-%D0%BC%D1%96%D0%BA%D0%BE%D0%BB%D0%B0-%D0%BC%D1%8F%D1%82%D0%BB%D1%96%D1%86%D0%BA%D1%96_html_c8f0723057f5b579.png) In the sky the full moon
+
+Sailed —  it was big. It was bright — Lighting up evening fields, Lighting up the road.
+
+And this autumn grey bird Vanished in the twilight, Vanished forever over The water — meadow.
+
+_Translated by Tatyana Aku__she__vich._

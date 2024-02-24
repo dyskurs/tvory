@@ -9,7 +9,9 @@ lang: en
 ---
 
 
- 
-**ТРЫЯЛЕТ**
 
-Мне доўгае расстанне з Вамі Чарней ад вашых чорных кос Чаму ж нядобры час прынёс Мне доўгае расстанне з ВамІ? Я пабляднеў ад горкіх слёз I трыялет пачаў славамЬ Мне доўгае расстанне з Вамі Чарней ад Вашых чорных кос.
+Design of stars so fair and fine In the dark firmament is blazing; Waters of pools and marshes shine Mirroring in their depths this blazon. A mist into far space doth twine, A choir of frogs chants hymns of praising The beauty in the puddles shrined. And in them burns a fair, amazing Design.
+
+Frogs curse the sun that hides from gazing The puddles'stars by day.  The pine Woods hear, the field hears the croaked phrasing; But frog-songs o'er the mountain spine Rise not, where once some hand was tracing Design.
+
+_Translated by Vera Rich._

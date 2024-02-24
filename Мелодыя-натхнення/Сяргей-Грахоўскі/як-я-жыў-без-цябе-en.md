@@ -32,17 +32,6 @@ And at once forget all that has wronged me, To see beams of light sparkle ,n  yo
 
 And believe there'll come strongly, Succour and happiness, °nefor us twain.
 
-Назаўсёды скарыцца Непадкупнай
-
-Суровай тваёй чысціні, Каб істоты тваёй адкрываць Таямніцы,
-
-Каб душу гартаваць на высокім агні.
-
-Час ляціць і ляціць,
-
-Завіруха завеяла скроні, Пакідаюць насечкі Гады на ілбе.
-
-Я гляджу на цябе, Я дзіўлюся і сёння, Чым я жыў без цябе, Як я жыў без цябе?..
 
 _Translated by Vera Rich._
 
